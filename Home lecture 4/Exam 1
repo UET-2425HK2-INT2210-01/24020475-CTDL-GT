@@ -1,0 +1,5 @@
+Hai thuộc tính chính của một hàm băm là:
+
+1. Tính nhất quán (Consistency): Đầu vào giống nhau luôn cho ra kết quả băm giống nhau. Điều này đảm bảo rằng hàm băm tạo ra giá trị đầu ra đáng tin cậy và có thể dự đoán được cho mỗi đầu vào cụ thể.
+
+2. Tính phân phối đều (Uniform distribution): Các đầu vào khác nhau phải tạo ra các giá trị băm khác nhau và được phân phối đều trên không gian đầu ra. Điều này giảm khả năng xảy ra xung đột (collision) và cải thiện hiệu quả.
