@@ -1,0 +1,38 @@
+a)
+
+| Index     | Keys (Danh sách liên kết)|
+|-----------|----------------------    |
+| 0         |                          |
+| 1         |                          |
+| 2         |                          |
+| 3         | 88                       |
+| 4         | 94                       |
+| 5         | 5                        |
+| 6         |                          |
+| 7         | 39                       |
+| 8         | 12, 44                   |
+| 9         | 13, 23, 11, 20, 16       |
+| 10        |                          |
+
+Giải thích:
+- Với mỗi key, ta tính chỉ số bằng h(i) = (2i + 5) mod 11, và nếu có va chạm thì thêm vào danh sách tại chỉ số đó.
+
+---
+b)
+
+|   Index   |   Keys     |
+|-----------|------------|
+| 0         | 5          |
+| 1         |            |
+| 2         | 20         |
+| 3         | 88         |
+| 4         | 94         |
+| 5         | 11         |
+| 6         | 39         |
+| 7         | 13         |
+| 8         | 12         |
+| 9         | 23         |
+| 10        | 16         |
+
+Giải thích:
+- Với mỗi key, ta tính chỉ số bằng h(i). Nếu vị trí đã bị chiếm, thì ta dò tiếp vị trí tiếp theo trong bảng (theo cách tuyến tính) cho đến khi tìm được chỗ trống.
